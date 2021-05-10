@@ -5,11 +5,6 @@ window.dom = {
     container.innerHTML = string.trim();
     return container.content.firstChild;
   },
-  //
-  create:function(){
-      
-  }
-  //
   after(node, node2) {
     node.parentNode.insertBefore(node2, node.nextSibling);
   },
