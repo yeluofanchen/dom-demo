@@ -106,6 +106,8 @@ window.dom = {
   off(node, eventName, fn) {
     node.removeEventListener(eventName, fn);
   },
+  // scope 范围
+  // test.querySelectorAll('.red')[0] 确实可以这样用
   find(selector, scope) {
     return (scope || document).querySelectorAll(selector);
   },

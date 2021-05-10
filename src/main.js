@@ -65,16 +65,19 @@ console.log(t);
 
 dom.each(dom.children(t), (n) => dom.style(n, "color", "red"));
 
-console.log(e2);
+// console.log(e2);
 
-console.log(t);
-console.log(dom.children(t));
+// console.log(t);
+// console.log(dom.children(t));
 
-console.log(`travel children:${dom.children(t)}`);
+// console.log(`travel children:${dom.children(t)}`);
 
-console.log(`e2:${e2}`);
-console.log(dom.index(e2));
+// console.log(`e2:${e2}`);
+// console.log(dom.index(e2));
 
-console.log(`e2-index:${dom.index(e2)}`);
+// console.log(`e2-index:${dom.index(e2)}`);
 
 // dom.index(`index:${e2}`);
+
+const divff = dom.find("#test>.red")[0];
+console.log(`divff:${divff}`);
